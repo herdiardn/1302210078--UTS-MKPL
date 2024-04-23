@@ -6,7 +6,9 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Employee {
-
+	
+	class EmployeeData {
+	}
 	private String employeeId;
 	private String firstName;
 	private String lastName;
@@ -32,7 +34,7 @@ public class Employee {
 	private List<String> childIdNumbers;
 	private Gender gender;
 	
-	public Employee(String employeeId, String firstName, String lastName, String idNumber, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, Gender gender) {
+	public Employee(EmployeeData data) {
 		this.employeeId = employeeId;
 		this.firstName = firstName;
 		this.lastName = lastName;
