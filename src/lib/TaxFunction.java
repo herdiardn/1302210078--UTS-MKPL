@@ -1,7 +1,7 @@
 package lib;
 
 public class TaxFunction {
-
+	//Magic Numbers
     private static final double TAX_RATE = 0.05;
     private static final int TAX_EXEMPTION_SINGLE = 54000000;
     private static final int TAX_EXEMPTION_MARRIED = 58500000;
